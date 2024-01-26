@@ -96,3 +96,5 @@ from .swiatowid_packet_crop import swiatowid_packet_crop
 from .swiatowid_packet_split import swiatowid_packet_split
 from .sx12xx_check_crc import sx12xx_check_crc
 from .sx12xx_packet_crop import sx12xx_packet_crop
+from .fsk_modulator import fsk_modulator
+from .insert_length_bytes import insert_length_bytes

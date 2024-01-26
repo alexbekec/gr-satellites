@@ -96,7 +96,8 @@ install(FILES
     satellites_varlen_packet_framer.block.yml
     satellites_varlen_packet_tagger.block.yml
     satellites_viterbi_decoder.block.yml
-    DESTINATION share/gnuradio/grc/blocks
+    satellites_fsk_modulator.block.yml
+    satellites_insert_length_bytes.block.yml DESTINATION share/gnuradio/grc/blocks
 )
 
 add_subdirectory(ccsds)
